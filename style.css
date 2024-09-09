@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(252, 219, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400, 700;
+    font-size: 100;
+    text-align: center;
+}
+header {
+    color: rgb(59, 58, 58);
+    font-size: 2em;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+#inputdob {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #8f0094;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: rgb(251, 229, 254);
+}
+#cdate {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #8f0094;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: rgb(251, 229, 254);
+}
+
+label {
+    display: block;
+    margin-right: 60px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+input[type="reset"] {
+    width: 50px;
+    background-color: rgb(251, 229, 254);
+    border: 1px solid #68036b;
+    border-radius: 5px;
+}
+
+button {
+    width:150px ;
+    height: 40px;
+    background-color: rgb(151, 9, 170);
+    border: 1px solid #68036b;
+}
+
+button:hover {background-color: #d569e1;}
+
+#currentAge {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
